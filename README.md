@@ -33,28 +33,34 @@ GLOBAL OPTIONS:
 - Compress `path_to_file` to a file named `compressed`
 
 ```shell
-EasyCompression c path_to_file
+EasyCompression(.exe) c path_to_file
 ```
 
 - Compress `path_to_file` to a file named `output_name`
 
 ```shell
-EasyCompression -o output_name c path_to_file
+EasyCompression(.exe) -o output_name c path_to_file
 ```
 
 - Decompress `path_to_file` to a file named `decompressed`
 
 ```shell
-EasyCompression d path_to_file
+EasyCompression(.exe) d path_to_file
 ```
 
 - Decompress `path_to_file` to a file named `output_name`
 
 ```shell
-EasyCompression -o output_name d path_to_file
+EasyCompression(.exe) -o output_name d path_to_file
 ```
 
 ## Dev
+
+### Install
+
+```shell
+go install
+```
 
 ### Build
 
